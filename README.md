@@ -1,4 +1,4 @@
-# CodeAlpha_Task1 - NetworkSniffer
+# CodeAlpha_Task1: NetworkSniffer
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-KaliLinux|Python3-blue)
