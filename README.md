@@ -1,17 +1,26 @@
 # CodeAlpha_NetworkSniffer
 
-## 🔐 Cybersecurity Internship - Task 1: Basic Network Sniffer
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-KaliLinux|Python3-blue)
+![Type](https://img.shields.io/badge/Type-NetworkSniffer-orange)
+![Protocols](https://img.shields.io/badge/Protocols-TCP_UDP_ICMP_DNS_HTTP_HTTPS-lightgrey)
+![Filter](https://img.shields.io/badge/Filter-BPF-informational)
+![Level](https://img.shields.io/badge/Level-Professional-critical)
+![License](https://img.shields.io/badge/License-Educational-important)
+
+
+##  Cybersecurity Internship - Task 1: Basic Network Sniffer
 
 A professional-grade network packet analyzer built for educational cybersecurity purposes. This tool demonstrates comprehensive understanding of network protocols, security implications, and practical network forensics capabilities.
 
-### 🎯 Project Overview
+###  Project Overview
 
 **Internship:** CodeAlpha Cybersecurity Program  
 **Task:** Task 1 - Basic Network Sniffer  
 **Technologies:** Python 3, Scapy, Linux  
 **Platform:** Kali Linux (Recommended)  
 
-### ✨ Features
+###  Features
 
 - **Multi-Protocol Support:** TCP, UDP, ICMP, DNS, HTTP, HTTPS, ARP, DHCP
 - **Real-time Analysis:** Live packet capture and display
@@ -20,7 +29,7 @@ A professional-grade network packet analyzer built for educational cybersecurity
 - **Filter Support:** Berkeley Packet Filter (BPF) integration
 - **Educational Focus:** Clear protocol layer visualization
 
-### 🚀 Quick Start
+###  Quick Start
 
 #### Prerequisites
 ```bash
@@ -62,7 +71,7 @@ sudo python3 network_sniffer.py -i eth0 -c 20
 sudo python3 network_sniffer.py -f "tcp port 80" -c 5
 ```
 
-### 📚 Usage Examples
+###  Usage Examples
 
 #### DNS Traffic Analysis
 ```bash
@@ -91,7 +100,7 @@ sudo python3 network_sniffer.py -f "icmp" -c 5
 ping -c 3 8.8.8.8
 ```
 
-### 🔧 Command Line Options
+###  Command Line Options
 
 | Option | Description | Example |
 |--------|-------------|---------|
@@ -100,7 +109,7 @@ ping -c 3 8.8.8.8
 | `-c, --count` | Number of packets to capture | `-c 50` |
 | `--list-interfaces` | Show available interfaces | `--list-interfaces` |
 
-### 📊 Sample Output
+###  Sample Output
 
 ```
 [12:45:32] Packet #1
@@ -120,13 +129,13 @@ ping -c 3 8.8.8.8
   Layers: Ether -> IP -> TCP -> Raw
 ```
 
-### 🛡️ Security Considerations
+### 🛡 Security Considerations
 
 **Important Notes:**
-- ⚠️ **Legal Compliance:** Only use on networks you own or have explicit permission to monitor
-- 🔒 **Ethical Usage:** Educational and legitimate security testing only
-- 👥 **Privacy Respect:** Be mindful of capturing sensitive information
-- 📋 **Documentation:** Always document testing activities
+- ⚠ **Legal Compliance:** Only use on networks you own or have explicit permission to monitor
+-  **Ethical Usage:** Educational and legitimate security testing only
+-  **Privacy Respect:** Be mindful of capturing sensitive information
+-  **Documentation:** Always document testing activities
 
 **What the Tool Reveals:**
 - HTTP traffic exposes all data in plain text
@@ -134,7 +143,7 @@ ping -c 3 8.8.8.8
 - DNS queries reveal browsing patterns
 - Background tracking is extensive and often hidden
 
-### 🎓 Educational Value
+###  Educational Value
 
 #### Network Protocols Demonstrated
 - **Layer 2:** Ethernet, ARP (Address Resolution)
@@ -157,7 +166,7 @@ Typical capture session reveals:
 └── Privacy: Advertising and tracking networks
 ```
 
-### 🔍 Technical Architecture
+###  Technical Architecture
 
 ```
 Network Interface
@@ -174,7 +183,7 @@ Protocol Analysis Engine
 Real-time Display & Logging
 ```
 
-### 📈 Testing Results
+###  Testing Results
 
 Our comprehensive testing revealed:
 
@@ -191,7 +200,7 @@ Our comprehensive testing revealed:
 - DNS queries reveal all browsing activity
 - HTTPS effectively protects application data
 
-### 🚀 Future Enhancements
+###  Future Enhancements
 
 **Planned Features:**
 - [ ] Web-based GUI dashboard
@@ -200,35 +209,35 @@ Our comprehensive testing revealed:
 - [ ] Automated vulnerability detection
 - [ ] PCAP file export capability
 
-### 📝 Documentation
+###  Documentation
 
 - **Technical Report:** Complete analysis and findings in `docs/` folder
 - **Code Comments:** Comprehensive inline documentation
 - **Usage Examples:** Real-world testing scenarios
 - **Security Assessment:** Protocol vulnerability analysis
 
-### 🤝 Contributing
+###  Contributing
 
 This project is part of the CodeAlpha cybersecurity internship program. Contributions, suggestions, and educational improvements are welcome!
 
-### 📄 License
+###  License
 
 This project is for educational purposes as part of the CodeAlpha internship program. Please respect ethical usage guidelines and legal requirements for network monitoring.
 
-### 🔗 Links
+###  Links
 
 - **CodeAlpha:** [www.codealpha.tech](https://www.codealpha.tech)
 - **LinkedIn:** [Tag @CodeAlpha in your project post]
 - **Documentation:** See `docs/technical_report.md` for detailed analysis
 
-### 👨‍💻 Author
+###  Author
 
 **FarahMae**  
 CodeAlpha Cybersecurity Intern  
-[LinkedIn Profile]  
+[[LinkedIn Profile](https://www.linkedin.com/in/farah-mae-sumajit-a03493303/)]  
 
 ---
 
-**⭐ If this project helped you understand network security, please star this repository!**
+** If this project helped you understand network security, please star this repository!**
 
-*Built with 💪 for cybersecurity education and professional development.*
+*Built with  for cybersecurity education and professional development.*
